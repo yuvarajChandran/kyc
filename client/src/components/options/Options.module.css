@@ -1,14 +1,6 @@
 .options {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  column-gap: 2rem;
-  margin: 2rem auto;
-  width: 90%;
-  max-width: 600px;
   background: #fefefe;
-  padding: 0.5rem 1rem;
-  border-top: 5px solid dodgerblue;
-  border-radius: 0.25rem;
 }
 
 @media (max-width: 600px) {
@@ -87,3 +79,4 @@
   display: flex;
   margin-left: 0.4rem;
 }
+

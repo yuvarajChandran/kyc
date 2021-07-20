@@ -1,5 +1,29 @@
+@font-face {
+    font-family:PlayfairDisplay;
+    src: url('fonts/PlayfairDisplay.ttf');
+}
+@font-face {
+    font-family:Merriweather;
+    src: url('fonts/Merriweather.ttf');
+}
+html,body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+body {
+	font-family:Merriweather !important;
+	margin: 0;
+	padding: 0;
+	color: #232323;
+	font-size: 13px;
+	line-height: 1.4;
+	width: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-weight:300;
+}
 .App {
-  padding: 1rem 0 0;
   width: 100%;
   height: 100%;
   background: transparent;
